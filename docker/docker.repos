@@ -2,7 +2,7 @@
 repositories:
   carla/ros-bridge:
     type: git
-    url: https://github.com/TUMFTM/ros-bridge.git
+    url: https://github.com/Franncys/ros-bridge.git
     version: master
   carla/astuff_sensor_msgs:
     type: git
