@@ -150,6 +150,9 @@ def launch_setup(context, *args, **kwargs):
                 'port': launch.substitutions.LaunchConfiguration('port')
             },
             {
+                'fault_config_file': launch.substitutions.LaunchConfiguration('fault_config_file')
+            },
+            {
                 'timeout': launch.substitutions.LaunchConfiguration('timeout')
             },
             {

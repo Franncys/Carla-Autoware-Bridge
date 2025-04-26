@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Default values
-HUBNAME="tumgeka"
+HUBNAME="franncys"
 TAG="latest"
 NAME="carla-autoware-bridge" 
 
@@ -34,4 +34,4 @@ PARENT_DIR="$(dirname "$SCRIPT_DIR")"
 
 echo "Building the CARLA-Autoware-Bridge Dockerfile"
 
-docker build -f $SCRIPT_DIR/Dockerfile --tag $HUBNAME/$NAME:$TAG $PARENT_DIR
+docker build -f $SCRIPT_DIR/Dockerfile --tag $HUBNAME/$NAME:$TAG $PARENT_DIR --no-cache
