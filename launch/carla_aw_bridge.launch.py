@@ -230,6 +230,10 @@ def generate_launch_description():
             name='port',
             default_value='2000',
             description='TCP port of the CARLA server')
+    fault_file_arg = DeclareLaunchArgument(
+            name='fault_config_file',
+            default_value='',
+            description='File path to the fault injection configuration file')
     timeout_arg = DeclareLaunchArgument(
             name='timeout',
             default_value='5',
@@ -282,6 +286,7 @@ def generate_launch_description():
     ld = LaunchDescription([
         host_arg,
         port_arg,
+        fault_file_arg,
         timeout_arg,
         town_arg,
         view_arg,
