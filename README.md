@@ -16,8 +16,9 @@ The simulation framework around the CARLA-Autoware-Bridge consists of the compon
 - ros-bridge: Fork of the ros-bridge with our changes needed for the CARLA-Autoware-Bridge.
 - carla-t2: Vehicle model and sensor kit packages of the CARLA T2 2021 Vehicle for Autoware.
 - carla-ros-msgs:  Fork of the carla-ros-msg with our changes needed for the CARLA-Autoware-Bridge.
-This repository is a **forked and updated version** of the original CARLA-Autoware-Bridge by TUMFTM:  
-➡️ **https://github.com/TUMFTM/carla-autoware-bridge**
+-
+- This repository is a **forked and updated version** of the original CARLA-Autoware-Bridge by TUMFTM:
+- ➡️ **https://github.com/TUMFTM/carla-autoware-bridge**
 
 The following changes have been made in this fork:
 
