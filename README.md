@@ -41,3 +41,7 @@ This version focuses on enhancing the testing capabilities and integrating with 
 
 ## 🛠️ Installation Process
 Follow the original installation instructions from the CARLA-Autoware-Bridge repository, with the only difference being that you will use **this updated version of the bridge** instead of the original one.
+
+## Usefull Links
+- Vector and Point cloud maps: https://bitbucket.org/carla-simulator/autoware-contents/src/master/maps/
+- Town01 with traffic lights: https://drive.google.com/drive/folders/1QFU0p3C8NW71sT5wwdnCKXoZFQJzXfTG?usp=drive_link
